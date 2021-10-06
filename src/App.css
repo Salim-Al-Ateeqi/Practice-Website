@@ -1,38 +1,42 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App img {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainImage {
+  border-radius: 50% 5px;
+}
+
+.subTitle {
+  margin-top: 100px;
+}
+
+.animeBlocks {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: 475px;
+  width: 230px;
+  background-color: #4c5363;
+  cursor: pointer;
+}
+
+.animeBlocks:hover {
+  background-color: #555d6f;
+}
+
+.animeRows {
+  display: flex;
+  flex-flow: row;
 }
