@@ -1,13 +1,13 @@
 import "./App.css";
 import Home from "./components/Home";
-import AnimeRow from "./components/AnimeRow";
-import animeData from "./AnimeArray";
+import MovieRow from "./components/MovieRow";
+import movieData from "./MovieArray";
 
 function App() {
   return (
     <div className="App">
       <Home />
-      <AnimeRow anime={animeData} />
+      <MovieRow movie={movieData} />
     </div>
   );
 }

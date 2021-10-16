@@ -10,7 +10,7 @@ export default function Home() {
         src="https://pbs.twimg.com/profile_images/1365359175690293251/dc3Wefho_400x400.jpg"
         alt="Salim"
       />
-      <h2 className="subTitle">My Favorite Animes</h2>
+      <h2 className="subTitle">My Favorite Movies</h2>
     </div>
   );
 }
